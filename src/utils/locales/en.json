@@ -1,0 +1,12 @@
+{
+  "CHANGE_LANGUAGE": "Change language",
+  "CHANGE_PASSWORD": "Change password",
+  "IDS_CNF_LOGOUT": "Logout",
+  "IDS_DM_WEB_NAME": "Hào Xóm Bến",
+  "IDS_DM_USERNAME": "Username",
+  "IDS_DM_PASSWORD": "Password",
+  "IDS_DM_LOGIN": "Login",
+  "IDS_DM_FORGOT_PASSWORD": "Forgot password?",
+  "IDS_DM_REGISTER": "Register",
+  "IDS_DM_LOGIN_FB": "Login through facebook"
+}

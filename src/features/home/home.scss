@@ -1,0 +1,69 @@
+.wp-search {
+  text-align: center;
+  align-items: center;
+  margin: 25px 65px;
+}
+
+.container-market {
+  .img-body {
+    text-align: center;
+    margin: 0 auto 25px;
+    max-width: 250px;
+    height: 200px;
+    .img-big {
+      max-width: 100%;
+      height: 200px;
+      margin-top: 15px;
+      transition: all ease 300ms;
+      border-radius: 8px 8px;
+      &:hover {
+        margin: 6px auto 0;
+      }
+    }
+  }
+  .item-market {
+    padding: 16px 40px;
+    border: thin solid transparent;
+    text-align: center;
+
+    .price-regular {
+      color: #00b894;
+      font-weight: 500;
+    }
+
+    .title {
+      text-overflow: ellipsis;
+      letter-spacing: 0.1px;
+      width: 100%;
+      line-height: 1.38;
+      max-height: 43px;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .anticon {
+      color: #00b894;
+    }
+  }
+  .item-market:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 20px 0px;
+  }
+}
+.ant-input-group > .ant-input:first-child {
+  height: 40px;
+  border-radius: 17px 0 0 17px;
+  border-color: #49494980;
+}
+
+.ant-input-search-enter-button
+  input
+  + .ant-input-group-addon
+  .ant-input-search-button {
+  height: 40px;
+  border-radius: 0 17px 17px 0;
+  background-color: #00b894;
+  border-color: #00b894;
+  color: #fff;
+}

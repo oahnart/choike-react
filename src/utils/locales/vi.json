@@ -1,0 +1,12 @@
+{
+  "CHANGE_LANGUAGE": "Đổi ngôn ngữ",
+  "CHANGE_PASSWORD": "Đổi mật khẩu",
+  "IDS_CNF_LOGOUT": "Đăng xuất",
+  "IDS_DM_WEB_NAME": "Hào Xóm Bến",
+  "IDS_DM_USERNAME": "Tên đăng nhập",
+  "IDS_DM_PASSWORD": "Mật khẩu",
+  "IDS_DM_LOGIN": "Đăng nhập",
+  "IDS_DM_FORGOT_PASSWORD": "Quên mật khẩu?",
+  "IDS_DM_REGISTER": "Tạo tài khoản mới",
+  "IDS_DM_LOGIN_FB": "Đăng nhập thông qua Facebook"
+}

@@ -1,0 +1,114 @@
+//layout market
+
+.wp-header {
+  .site-description {
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .wp-logo {
+    max-width: 110px;
+    height: 110px;
+    margin: 30px auto;
+    .logo {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    margin: 30px auto 45px;
+    justify-content: center;
+
+    .item-menu {
+      margin: 15px;
+
+      a {
+        margin: 0;
+        color: #222;
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+
+      .route-selected {
+        color: #00b894;
+        border-bottom: 2px solid #00b894;
+      }
+    }
+
+    .ant-col {
+      display: flex;
+      justify-content: center;
+      .anticon {
+        display: block;
+      }
+    }
+
+    .btn4 {
+      padding: 3px;
+      text-align: center;
+      position: relative;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .btn4:hover {
+      color: #00b894;
+    }
+    .btn4::before {
+      content: "";
+      position: absolute;
+      bottom: 0%;
+      top: 100%;
+      left: 0px;
+      width: 100%;
+      height: 2px;
+      background: #00b894;
+      display: block;
+      -webkit-transform-origin: right top;
+      -ms-transform-origin: right top;
+      transform-origin: right top;
+      -webkit-transform: scale(0, 1);
+      -ms-transform: scale(0, 1);
+      transform: scale(0, 1);
+      -webkit-transition: transform 0.4s cubic-bezier(1, 0, 0, 1);
+      transition: transform 0.4s cubic-bezier(1, 0, 0, 1);
+    }
+
+    .btn4:hover::before {
+      -webkit-transform-origin: left top;
+      -ms-transform-origin: left top;
+      transform-origin: left top;
+      -webkit-transform: scale(1, 1);
+      -ms-transform: scale(1, 1);
+      transform: scale(1, 1);
+    }
+  }
+}
+.ant-dropdown {
+  top: 272px !important;
+  min-width: 250px !important;
+
+  .ant-dropdown-menu-item > a {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    color: #222;
+    font-weight: 350;
+    font-size: 14px;
+  }
+
+  .ant-dropdown-menu-item > .flex-user {
+    border-bottom: thin solid silver;
+    padding: 20px 12px;
+  }
+  .ant-dropdown-menu-item > .style-flex-user {
+    padding: 5px 12px 10px;
+    border-bottom: thin solid silver;
+  }
+}
+// .ant-dropdown-hidden {
+//   display: block;
+// }
